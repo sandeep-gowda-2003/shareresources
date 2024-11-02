@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User's favorite color</title>
+    <style>
+        #colorContainer {
+            width: 100%;
+            height: 5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>USER'S FAVORITE COLOR</h1>
+    <br>
+    <label for="color">Enter Color: </label>
+    <input type="text" id="color" placeholder="Ex: color">
+    <button onclick="changeColor()">submit</button>
+    <p id="colorContainer"></p>
+    <script type="text/javascript">
+        let container = document.querySelector('#colorContainer')
+        function changeColor() {
+            let color = document.querySelector('#color').value
+            if (color) {
+                container.style.backgroundColor = color
+            }
+        }
+    </script>
+</body>
+
+</html>

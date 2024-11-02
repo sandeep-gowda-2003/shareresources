@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heading</title>
+</head>
+
+<body>
+    <h2>Original Heading</h2>
+    <label for="heading">Enter heading:</label>
+    <input type="text" id="heading">
+    <button onclick="changeHeading()">Click Me to Change Heading</button>
+    <script>
+        function changeHeading() {
+            let heading = document.querySelector('h2')
+            let inputtext = document.querySelector('#heading')
+            heading.innerText = inputtext.value
+            inputtext.value = ''
+        }
+    </script>
+</body>
+
+</html>
