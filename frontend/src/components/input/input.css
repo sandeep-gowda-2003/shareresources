@@ -1,0 +1,49 @@
+.input_field {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 1rem;
+    border: 2px solid;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(234, 234, 234);
+}
+
+.input_area {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    /* width: auto; */
+}
+
+
+.child_field {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    transition: 0.3s ease-in-out;
+    background-color: rgb(216, 216, 216);
+    border-radius: 0.5rem;
+}
+
+.input_field #todo_title {
+    font-size: 2rem;
+}
+
+.input_field #todo_title:hover {
+    background-color: rgb(205, 205, 205);
+}
+
+.input_field #todo_title:focus {
+    background-color: rgb(205, 205, 205);
+}
+
+#todo_body {
+    min-height: 50px;
+    height: auto;
+}
+
+#todo_body:focus {
+    background-color: rgb(205, 205, 205);
+}

@@ -1,0 +1,18 @@
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button>* {
+    width: 50%;
+    font-size: 1.5rem;
+    background-color: rgb(46, 236, 74);
+    transition: 0.3s ease-in-out;
+    color: rgb(23, 23, 23);
+    border-radius: 0.3rem;
+    font-weight: 900;
+}
+
+.button>*:hover {
+    background-color: rgb(0, 255, 0);
+}

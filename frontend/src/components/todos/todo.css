@@ -1,0 +1,56 @@
+.todocard {
+    background-color: antiquewhite;
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+.title {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+.title>* {
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.icon {
+    font-size: 2.5rem;
+    transition: 0.2s ease-in-out;
+    margin: 0 1rem;
+}
+
+.delete {
+    margin-right: 1rem;
+    color: rgb(242, 5, 5);
+}
+
+.delete:hover {
+    color: rgb(154, 16, 16);
+}
+
+.edit {
+    color: blueviolet;
+}
+
+.edit:hover {
+    color: rgb(80, 15, 233);
+}
+
+.description {
+    margin-top: 1rem;
+}
+
+.description>* {
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
